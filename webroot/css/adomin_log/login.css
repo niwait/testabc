@@ -1,0 +1,28 @@
+@charset "UTF-8";
+html,body,.wrapper,.content-wrapper {
+	height: 100% !important;
+}
+.content-wrapper,.main-footer {
+	margin: 0;
+}
+.content-wrapper .content {
+	padding-top: 100px;
+}
+.box {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.form-control {
+	width: 100%;
+}
+.box-header {
+	text-align: center;
+	line-height: 1;
+	margin-bottom: 30px;
+	padding: 40px;
+}
+.box-footer {
+	text-align: center;
+	border: none;
+	padding-bottom: 40px;
+}

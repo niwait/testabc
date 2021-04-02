@@ -1,0 +1,36 @@
+#info-table{
+    font-size: 13px;
+}
+#info-table th, #info-table td{
+    white-space: nowrap;
+}
+#info-table .wrap{
+    width: 155px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#staff-table th, #staff-table td{
+    white-space: nowrap;
+}
+
+@media (min-width: 769px) {
+	.dataTables_info {
+		margin: 15px 0;
+	}
+	.dataTables_paginate .pagination {
+		float: right;
+	}
+}
+@media (max-width: 768px) {
+	.dataTables_info {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.dataTables_paginate .pagination {
+		text-align: center;
+		margin: 10px auto;
+		display: table;
+	}
+}

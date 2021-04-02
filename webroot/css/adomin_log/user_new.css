@@ -1,0 +1,287 @@
+.user-wrap {
+  width: 100%; }
+  .user-wrap .header {
+    width: 100%;
+    padding: 60px 0px; }
+    .user-wrap .header a {
+      display: block;
+      width: 80px;
+      margin: 0 auto; }
+      .user-wrap .header a img {
+        width: 100%; }
+  @media screen and (max-width: 750px) {
+    .user-wrap .header a {
+      width: 50px; } }
+  .user-wrap .main-contents {
+    background: #f3f0eb;
+    padding-bottom: 60px; }
+    .user-wrap .main-contents .background__padding {
+      padding: 0px 50px; }
+      .user-wrap .main-contents .background__padding .background--white {
+        background: white;
+        padding: 10px; }
+        .user-wrap .main-contents .background__padding .background--white .background--border {
+          border: 3px solid #f3f0eb; }
+    @media screen and (max-width: 750px) {
+      .user-wrap .main-contents .background__padding {
+        padding: 0 15px; } }
+    .user-wrap .main-contents p {
+      font-size: 14px;
+      text-align: center;
+      color: #333333; }
+      .user-wrap .main-contents p span {
+        color: #af987b; }
+      .user-wrap .main-contents p a {
+        cursor: pointer;
+        color: #333333; }
+    .user-wrap .main-contents .forget-msg {
+      margin: 30px 0px 50px 0px; }
+    .user-wrap .main-contents .login-form {
+      width: 500px;
+      margin: 30px auto 44px auto; }
+      .user-wrap .main-contents .login-form form {
+        width: 100%; }
+        .user-wrap .main-contents .login-form form .facebook {
+          width: 400px;
+          margin: 50px auto 40px auto;
+          background: #3c5a98; }
+          .user-wrap .main-contents .login-form form .facebook .facebook__btn {
+            display: block;
+            border: none;
+            color: white;
+            width: 100%;
+            background: transparent;
+            padding: 15px 0;
+            font-size: 15px;
+            cursor: pointer; }
+            .user-wrap .main-contents .login-form form .facebook .facebook__btn i {
+              margin-right: 12px; }
+          .user-wrap .main-contents .login-form form .facebook:hover {
+            opacity: .8; }
+        @media screen and (max-width: 750px) {
+          .user-wrap .main-contents .login-form form .facebook {
+            width: 260px; } }
+        .user-wrap .main-contents .login-form form .login {
+          width: 400px;
+          margin: 50px auto 40px auto;
+          background: #333333; }
+          .user-wrap .main-contents .login-form form .login .login__btn {
+            cursor: pointer;
+            display: block;
+            border: none;
+            color: white;
+            width: 100%;
+            background: transparent;
+            padding: 15px 0;
+            font-size: 15px; }
+            .user-wrap .main-contents .login-form form .login .login__btn i {
+              margin-right: 12px; }
+          .user-wrap .main-contents .login-form form .login:hover {
+            opacity: .8; }
+        @media screen and (max-width: 750px) {
+          .user-wrap .main-contents .login-form form .login {
+            width: 260px; } }
+        .user-wrap .main-contents .login-form form .margin-bottom {
+          margin-bottom: 40px; }
+        .user-wrap .main-contents .login-form form .margin-top {
+          margin-top: 30px; }
+        .user-wrap .main-contents .login-form form .form-row {
+          position: relative; }
+        .user-wrap .main-contents .login-form form .form-row-wrap {
+          border: 1px solid rgba(211, 211, 211, 0.651); }
+        .user-wrap .main-contents .login-form form .form-row:nth-child(1) {
+          border-bottom: 1px solid rgba(211, 211, 211, 0.651); }
+        .user-wrap .main-contents .login-form form .mail, .user-wrap .main-contents .login-form form #password {
+          width: 100%;
+          padding: 13px 25px;
+          text-align: center;
+          font-size: 13px;
+          border: none;
+          background: #fbfaf8; }
+        .user-wrap .main-contents .login-form form input[type="text"]:focus {
+          border: 1px solid #f3f0eb;
+          outline: 0; }
+        .user-wrap .main-contents .login-form form input[type="password"]:focus {
+          border: 1px solid #f3f0eb;
+          outline: 0; }
+        .user-wrap .main-contents .login-form form .form-row__input {
+          position: relative; }
+        .user-wrap .main-contents .login-form form .form-row__check {
+          position: absolute;
+          top: 50%;
+          right: 20px;
+          -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%); }
+        .user-wrap .main-contents .login-form form label {
+          padding: 0px 0px 0px 20px; }
+          .user-wrap .main-contents .login-form form label::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 14px;
+            height: 14px;
+            border: 1px solid #ddd;
+            border-radius: 4px; }
+        .user-wrap .main-contents .login-form form .checkbox__item {
+          display: block;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          opacity: 0;
+          cursor: pointer; }
+        .user-wrap .main-contents .login-form form .is-checked label::before {
+          background: #af987b;
+          border: 1px solid #af987b; }
+        .user-wrap .main-contents .login-form form .is-checked label::after {
+          content: '';
+          display: block;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          background: url(../img/check.png);
+          width: 16px;
+          height: 16px; }
+    @media screen and (max-width: 750px) {
+      .user-wrap .main-contents .login-form {
+        width: 290px; } }
+    .user-wrap .main-contents .mail-form {
+      width: 500px;
+      margin: 0 auto; }
+      .user-wrap .main-contents .mail-form form {
+        width: 100%; }
+        .user-wrap .main-contents .mail-form form input {
+          width: 100%;
+          padding: 13px 25px;
+          text-align: center;
+          font-size: 13px;
+          border: none;
+          background: #fbfaf8; }
+        .user-wrap .main-contents .mail-form form input[type="text"]:focus {
+          border: 1px solid #f3f0eb;
+          outline: 0; }
+        .user-wrap .main-contents .mail-form form .mail-wrap {
+          width: 400px;
+          margin: 50px auto 40px auto;
+          background: #333333; }
+          .user-wrap .main-contents .mail-form form .mail-wrap .mail__btn {
+            cursor: pointer;
+            display: block;
+            border: none;
+            color: white;
+            width: 100%;
+            background: transparent;
+            padding: 15px 0;
+            font-size: 15px; }
+            .user-wrap .main-contents .mail-form form .mail-wrap .mail__btn i {
+              margin-right: 12px; }
+          .user-wrap .main-contents .mail-form form .mail-wrap:hover {
+            opacity: .8; }
+    .user-wrap .main-contents .omit-pas-wrap {
+      text-align: center;
+      font-size: 14px;
+      margin: 0 0 33px 0; }
+      .user-wrap .main-contents .omit-pas-wrap label {
+        position: relative;
+        padding: 0 0 0 25px; }
+        .user-wrap .main-contents .omit-pas-wrap label::before {
+          content: '';
+          position: absolute;
+          top: 0px;
+          left: 0;
+          display: block;
+          width: 14px;
+          height: 14px;
+          border: 1px solid #ddd;
+          border-radius: 4px; }
+      .user-wrap .main-contents .omit-pas-wrap .is-checked label::before {
+        background: #af987b;
+        border: 1px solid #af987b; }
+      .user-wrap .main-contents .omit-pas-wrap .is-checked label::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background: url(../img/check.png);
+        width: 16px;
+        height: 16px; }
+      .user-wrap .main-contents .omit-pas-wrap #omit-pas {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer; }
+  .user-wrap .question-wrap {
+    margin: 58px 0px 58px 0px; }
+    .user-wrap .question-wrap p {
+      text-align: center;
+      font-size: 16px;
+      color: #af987b;
+      margin-bottom: 15px; }
+    .user-wrap .question-wrap .question-list {
+      text-align: center; }
+      .user-wrap .question-wrap .question-list li {
+        display: inline-block;
+        padding: 0 15px; }
+        .user-wrap .question-wrap .question-list li a {
+          position: relative;
+          display: block;
+          text-decoration: none;
+          color: #333333;
+          font-size: 13px; }
+          .user-wrap .question-wrap .question-list li a:hover {
+            opacity: .7; }
+          .user-wrap .question-wrap .question-list li a::before {
+            content: "";
+            background-color: #c7c7c7;
+            width: 110%;
+            height: 1px;
+            position: absolute;
+            top: 100%; }
+          .user-wrap .question-wrap .question-list li a::after {
+            content: "";
+            width: 10px;
+            border-top: solid 1px #c7c7c7;
+            border-right: solid 1px #c7c7c7;
+            -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+            position: absolute;
+            top: 48%;
+            top: calc(100% - 3px);
+            right: -10%; }
+      @media screen and (max-width: 750px) {
+        .user-wrap .question-wrap .question-list li {
+          margin-bottom: 20px; } }
+  @media screen and (max-width: 750px) {
+    .user-wrap .question-wrap {
+      margin: 58px 0px 38px 0px; } }
+  .user-wrap .footer {
+    width: 100%;
+    font-size: 13px; }
+    .user-wrap .footer .footer__nav {
+      text-align: center;
+      background: #f3f0eb;
+      padding: 20px 0; }
+      .user-wrap .footer .footer__nav li {
+        display: inline-block;
+        border-right: 1px solid rgba(211, 211, 211, 0.651);
+        padding: 0 10px; }
+        .user-wrap .footer .footer__nav li a {
+          display: block;
+          color: #333333; }
+        .user-wrap .footer .footer__nav li:hover {
+          opacity: .7; }
+      .user-wrap .footer .footer__nav li:last-child {
+        border: none; }
+    .user-wrap .footer .footer__copy {
+      padding: 25px 0;
+      text-align: center;
+      background: #af987b;
+      color: white; }

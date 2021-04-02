@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>フリーランス支援サイト</title>
+    <meta name="description" content="フリーランスを楽しもう【BIRTH】">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+    
+<body>    
+    
+    <div class="container">
+        
+        <header>
+            <div class="logo-area">
+            </div>
+            <nav>
+                <div class="drawer">
+                    <div id="logo" class="sp">
+                        <a href="home.html">フリーランス支援サイト「フリーダ」</a>
+                    </div>
+                    <div class="Toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="menu">
+                </div>
+            </nav>
+        </header>
+        
+
+        <main>
+
+            <div class="contents">
+                
+                <div class="my-nav-area">
+                    <p class="photo"><img src="images/hito-icon.svg"></p>
+                    <p class="name">田中 太郎</p>
+                    <p class="name-eng">TANAKA TARO</p>
+                    <ul class="position">
+                        <li><p>質問者</p></li>
+                        <li><p>回答者</p></li>
+                        <li><p>専門家</p></li>
+                        <li><p>募　集</p></li>
+                    </ul>
+                    <p class="btn"><a href="shitsumon-input.html">質問する</a></p>
+                    <!-- <p class="btn"><a href="">募集する</a></p> -->
+                    <ul class="menu">
+                        <li><p><a href="my-page.html">マイページ</a></p></li>
+                        <li><p><a href="my-plofile.html">プロフィール</a></p></li>
+                        <li><p><a href="my-shitsumon-subete.html">質　問</a></p></li>
+                        <li><p><a href="my-kaitou.html">回　答</a></p></li>
+                        <li><p><a href="my-rirekisho.html">履歴書</a></p></li>
+                        <!-- <li><p><a href="my-boshu-senden.html">募　集</a></p></li> -->
+                        <li><p><a href="my-message.html">メッセージ</a></p></li>
+                        <li><p><a href="my-bookmark.html">ブックマーク</a></p></li>
+                    </ul>
+                    <!--
+                    <ul class="folow">
+                        <li>
+                            <p class="ttl"><a href="">フォロワー</a></p>
+                            <p class="desc"><a href="">123</a></p>
+                        </li>
+                        <li>
+                            <p class="ttl"><a href="">フォロー</a></p>
+                            <p class="desc"><a href="">123</a></p>
+                        </li>
+                        <li>
+                            <p class="ttl"><a href="">評価数</a></p>
+                            <p class="desc"><a href="">123</a></p>
+                        </li>
+                    </ul>
+                    -->
+                    <button class="logout">ログアウト</button>
+                </div>
+
+                <div class="my-main-area">
+                    <p class="my-ttl">プロフィール 編集</p>
+                    <div class="my-plofile">
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>種　別</dt>
+                                    <dd>
+                                        <p>
+                                            <label class="chackBtn mgnB00px">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="質問者" class="">
+                                                <span class="chackMark"></span> 質問者
+                                            </label>
+                                            <label class="chackBtn mgnB00px">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="回答者" class="">
+                                                <span class="chackMark"></span> 回答者
+                                            </label>
+                                            <label class="chackBtn mgnB00px">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="専門家" class="">
+                                                <span class="chackMark"></span> 専門家
+                                            </label>
+                                            <label class="chackBtn mgnB00px">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="募集・宣伝" class="">
+                                                <span class="chackMark"></span> 募集・宣伝
+                                            </label>
+                                        </p>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>名　前</dt>
+                                    <dd>
+                                        <p><input type="text" id="" class="" placeholder="田中 太郎"></p>
+                                        <p><input type="text" id="" class="" placeholder="TANAKA TARO"></p>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>ニックネーム</dt>
+                                    <dd><input type="text" id="" class="" placeholder="ダミー DAMMY"></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>職　種</dt>
+                                    <dd><input type="text" id="" class="" placeholder="ダミー DAMMY"></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>資　格</dt>
+                                    <dd><input type="text" id="" class="" placeholder="ダミー DAMMY"></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>会 社 名</dt>
+                                    <dd><input type="text" id="" class="" placeholder="株）フェロースタイル"></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>住　所</dt>
+                                    <dd>
+                                        <p><input type="text" id="" class="" placeholder="152-0003"></p>
+                                        <p class="selectbox">
+                                            <select name="" class="selectbox">
+                                                <option value="">都道府県</option>
+                                                <option value="北海道">北海道</option>
+                                                <option value="青森県">青森県</option>
+                                                <option value="岩手県">岩手県</option>
+                                                <option value="宮城県">宮城県</option>
+                                                <option value="秋田県">秋田県</option>
+                                                <option value="山形県">山形県</option>
+                                                <option value="福島県">福島県</option>
+                                                <option value="茨城県">茨城県</option>
+                                                <option value="栃木県">栃木県</option>
+                                                <option value="群馬県">群馬県</option>
+                                                <option value="埼玉県">埼玉県</option>
+                                                <option value="千葉県">千葉県</option>
+                                                <option value="東京都">東京都</option>
+                                                <option value="神奈川県">神奈川県</option>
+                                                <option value="新潟県">新潟県</option>
+                                                <option value="富山県">富山県</option>
+                                                <option value="石川県">石川県</option>
+                                                <option value="福井県">福井県</option>
+                                                <option value="山梨県">山梨県</option>
+                                                <option value="長野県">長野県</option>
+                                                <option value="岐阜県">岐阜県</option>
+                                                <option value="静岡県">静岡県</option>
+                                                <option value="愛知県">愛知県</option>
+                                                <option value="三重県">三重県</option>
+                                                <option value="滋賀県">滋賀県</option>
+                                                <option value="京都府">京都府</option>
+                                                <option value="大阪府">大阪府</option>
+                                                <option value="兵庫県">兵庫県</option>
+                                                <option value="奈良県">奈良県</option>
+                                                <option value="和歌山県">和歌山県</option>
+                                                <option value="鳥取県">鳥取県</option>
+                                                <option value="島根県">島根県</option>
+                                                <option value="岡山県">岡山県</option>
+                                                <option value="広島県">広島県</option>
+                                                <option value="山口県">山口県</option>
+                                                <option value="徳島県">徳島県</option>
+                                                <option value="香川県">香川県</option>
+                                                <option value="愛媛県">愛媛県</option>
+                                                <option value="高知県">高知県</option>
+                                                <option value="福岡県">福岡県</option>
+                                                <option value="佐賀県">佐賀県</option>
+                                                <option value="長崎県">長崎県</option>
+                                                <option value="熊本県">熊本県</option>
+                                                <option value="大分県">大分県</option>
+                                                <option value="宮崎県">宮崎県</option>
+                                                <option value="鹿児島県">鹿児島県</option>
+                                                <option value="沖縄県">沖縄県</option>
+                                            </select>
+                                        </p>
+                                        <p><input type="text" id="" class="" placeholder="目黒区"></p>
+                                        <p><input type="text" id="" class="" placeholder="目黒２−２−２"></p>
+                                        <p><input type="text" id="" class="" placeholder="マンション301"></p>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>メールアドレス</dt>
+                                    <dd><input type="email" id="" class="" placeholder="hoge@example.com"></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>T E L</dt>
+                                    <dd><input type="tel" id="" class="" placeholder="09012345678"></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>自己紹介</dt>
+                                    <dd>
+                                        <textarea name="" cols="30" rows="10" placeholder="自己紹介"></textarea>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>SNS情報</dt>
+                                    <dd>
+                                        <section class="sns">
+                                            <ul>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select name="" class="selectbox">
+                                                            <option value="">SNS</option>
+                                                            <option value="LINE">LINE</option>
+                                                            <option value="twitter">twitter</option>
+                                                            <option value="facebook">facebook</option>
+                                                            <option value="instagram">instagram</option>
+                                                            <option value="その他">その他</option>
+                                                        </select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p><input type="text" id="" class="" placeholder="アドレス"></p>
+                                                </li>
+                                            </ul>
+                                            <input type="button" value="＋" class="add pluralBtn">
+                                        </section>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>得意な分野</dt>
+                                    <dd>
+                                        <p>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="設計" class="">
+                                                <span class="chackMark"></span> 設計
+                                            </label>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="デザイン" class="">
+                                                <span class="chackMark"></span> デザイン
+                                            </label>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="ダミー" class="">
+                                                <span class="chackMark"></span> ダミー
+                                            </label>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="ダミー" class="">
+                                                <span class="chackMark"></span> ダミー
+                                            </label>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="ダミー" class="">
+                                                <span class="chackMark"></span> ダミー
+                                            </label>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="ダミー" class="">
+                                                <span class="chackMark"></span> ダミー
+                                            </label>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="その他" class="">
+                                                <span class="chackMark"></span> その他
+                                            </label>
+                                        </p>
+                                        <p>その他は入力してください。複数の場合は「,」コンマ区切り</p>
+                                        <p><input type="text" id="" class="" placeholder="ダミー,ダミー,ダミー"></p>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>専門分野</dt>
+                                    <dd>
+                                        <p>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="設計" class="">
+                                                <span class="chackMark"></span> 設計
+                                            </label>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="デザイン" class="">
+                                                <span class="chackMark"></span> デザイン
+                                            </label>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="ダミー" class="">
+                                                <span class="chackMark"></span> ダミー
+                                            </label>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="ダミー" class="">
+                                                <span class="chackMark"></span> ダミー
+                                            </label>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="ダミー" class="">
+                                                <span class="chackMark"></span> ダミー
+                                            </label>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="ダミー" class="">
+                                                <span class="chackMark"></span> ダミー
+                                            </label>
+                                            <label class="chackBtn">
+                                                <input type="checkbox" id="" name="soudannaiyou" value="その他" class="">
+                                                <span class="chackMark"></span> その他
+                                            </label>
+                                        </p>
+                                        <p>その他は入力してください。複数の場合は「,」コンマ区切り</p>
+                                        <p><input type="text" id="" class="" placeholder="ダミー,ダミー,ダミー"></p>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>職　歴</dt>
+                                    <dd>
+                                        <section class="kikan">
+                                            <ul>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="wh-year-start-01"><option value="0">年</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="wh-month-start-01"><option value="0">月</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>〜</p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="wh-year-end-01"><option value="1">年</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="wh-month-end-01"><option value="1">月</option></select>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                        <p><input type="text" id="" class="" placeholder="株式会社 TOKYO DESIGN OFFICE"></p>
+                                        <p><input type="text" id="" class="" placeholder="役　職"></p>
+                                        
+                                        <hr class="mgnT20px mgnB20px">
+
+                                        <section class="kikan">
+                                            <ul>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="wh-year-start-02"><option value="0">年</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="wh-month-start-02"><option value="0">月</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>〜</p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="wh-year-end-02"><option value="1">年</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="wh-month-end-02"><option value="1">月</option></select>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                        <p><input type="text" id="" class="" placeholder="株式会社 TOKYO DESIGN OFFICE"></p>
+                                        <p><input type="text" id="" class="" placeholder="役　職"></p>
+                                        
+                                        <hr class="mgnT20px mgnB20px">
+
+                                        <section class="kikan">
+                                            <ul>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="wh-year-start-03"><option value="0">年</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="wh-month-start-03"><option value="0">月</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>〜</p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="wh-year-end-03"><option value="1">年</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="wh-month-end-03"><option value="1">月</option></select>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                        <p><input type="text" id="" class="" placeholder="未登録"></p>
+                                        <p><input type="text" id="" class="" placeholder="役　職"></p>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>学　歴</dt>
+                                    <dd>
+                                        <section class="kikan">
+                                            <ul>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="ah-year-start-01"><option value="0">年</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="ah-month-start-01"><option value="0">月</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>〜</p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="ah-year-end-01"><option value="1">年</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="ah-month-end-01"><option value="1">月</option></select>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                        <p><input type="text" id="" class="" placeholder="株式会社 TOKYO DESIGN OFFICE"></p>
+                                        
+                                        <hr class="mgnT20px mgnB20px">
+
+                                        <section class="kikan">
+                                            <ul>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="ah-year-start-02"><option value="0">年</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="ah-month-start-02"><option value="0">月</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>〜</p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="ah-year-end-02"><option value="1">年</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="ah-month-end-02"><option value="1">月</option></select>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                        <p><input type="text" id="" class="" placeholder="株式会社 TOKYO DESIGN OFFICE"></p>
+                                        
+                                        <hr class="mgnT20px mgnB20px">
+
+                                        <section class="kikan">
+                                            <ul>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="ah-year-start-03"><option value="0">年</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="ah-month-start-03"><option value="0">月</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>〜</p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="ah-year-end-03"><option value="1">年</option></select>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="selectbox">
+                                                        <select id="ah-month-end-03"><option value="1">月</option></select>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                        <p><input type="text" id="" class="" placeholder="未登録"></p>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <p class="mgnT20px">入力内容にお間違えはないですか？　よろしければ「変更する」クリック、タップしてください。マイページの「<a href="my-plofile.html">プロフィール</a>」に反映
+                                    されます。</p>
+                                    <p class="btn22 mgnT20px mgnB20px">
+                                        <button class="back" type="submit" onClick="history.go(-1);">戻　る</button>
+                                        <button class="go" onclick="location.href='my-plofile.html'">変更する</button>
+                                    </p>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </main>        
+        
+        <footer>
+        </footer>
+        
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+        $("header .logo-area").load("common.html .logo-btn-00");
+        $("header nav .menu").load("common.html .menu-list-home");
+        $("footer").load("common.html .footer-00");
+    });
+</script>
+    
+<script type="text/javascript">
+$(document).on("click", ".add", function() {
+    $(this).parent().clone(true).insertAfter($(this).parent());
+});
+$(document).on("click", ".del", function() {
+    var target = $(this).parent();
+    if (target.parent().children().length > 1) {
+        target.remove();
+    }
+});
+</script>    
+    
+<script type="text/javascript">
+    $(function() {
+        $('.Toggle').click(function() {
+            $(this).toggleClass('active');
+            $('header nav .menu').toggleClass('open');
+        });
+    });
+</script>
+
+<script type="text/javascript">
+$('.js-modal-open').on('click', function(){
+  var target = $(this).data('target');
+  var modal = document.getElementById(target);
+  scrollPosition = $(window).scrollTop();
+  $('body').addClass('fixed').css({'top': -scrollPosition});
+  $(modal).fadeIn();
+  return false;
+});
+$('.js-modal-close').on('click', function(){
+  $('body').removeClass('fixed');
+  window.scrollTo( 0 , scrollPosition );
+  $('.js-modal').fadeOut();
+  return false;
+});
+</script>
+
+<script type="text/javascript">
+    var time = new Date();
+    var year = time.getFullYear();
+    for (var i = year; i >= 1950; i--) {
+        $('#year').append('<option value="' + i + '">' + i + '</option>');
+        $('#wh-year-start-01').append('<option value="' + i + '">' + i + '</option>');
+        $('#wh-year-end-01').append('<option value="' + i + '">' + i + '</option>');
+        $('#ah-year-start-01').append('<option value="' + i + '">' + i + '</option>');
+        $('#ah-year-end-01').append('<option value="' + i + '">' + i + '</option>');
+        $('#wh-year-start-02').append('<option value="' + i + '">' + i + '</option>');
+        $('#wh-year-end-02').append('<option value="' + i + '">' + i + '</option>');
+        $('#ah-year-start-02').append('<option value="' + i + '">' + i + '</option>');
+        $('#ah-year-end-02').append('<option value="' + i + '">' + i + '</option>');
+        $('#wh-year-start-03').append('<option value="' + i + '">' + i + '</option>');
+        $('#wh-year-end-03').append('<option value="' + i + '">' + i + '</option>');
+        $('#ah-year-start-03').append('<option value="' + i + '">' + i + '</option>');
+        $('#ah-year-end-03').append('<option value="' + i + '">' + i + '</option>');
+    }
+    for (var i = 1; i <= 12; i++) {
+        $('#wh-month-start-01').append('<option value="' + i + '">' + i + '</option>');
+        $('#wh-month-end-01').append('<option value="' + i + '">' + i + '</option>');
+        $('#ah-month-start-01').append('<option value="' + i + '">' + i + '</option>');
+        $('#ah-month-end-01').append('<option value="' + i + '">' + i + '</option>');
+        $('#wh-month-start-02').append('<option value="' + i + '">' + i + '</option>');
+        $('#wh-month-end-02').append('<option value="' + i + '">' + i + '</option>');
+        $('#ah-month-start-02').append('<option value="' + i + '">' + i + '</option>');
+        $('#ah-month-end-02').append('<option value="' + i + '">' + i + '</option>');
+        $('#wh-month-start-03').append('<option value="' + i + '">' + i + '</option>');
+        $('#wh-month-end-03').append('<option value="' + i + '">' + i + '</option>');
+        $('#ah-month-start-03').append('<option value="' + i + '">' + i + '</option>');
+        $('#ah-month-end-03').append('<option value="' + i + '">' + i + '</option>');
+    }
+</script>
+
+</body>
+</html>

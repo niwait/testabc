@@ -1,0 +1,56 @@
+#padding1,#padding2,#padding3,#padding4{
+    padding: 0;
+}
+#padding2,#padding4{
+    padding-left: 5px;
+}
+@media screen and (max-width:768px){
+    #padding1,#padding2,#padding3,#padding4{
+        padding: 10px 0px;
+    }
+}
+.box-header{
+    padding: 30px 10px 10px 10px;
+}
+.padding{
+    margin: 5px 0px;
+}
+
+.text-light{
+    text-decoration: underline;
+}
+
+.text-weight{
+    font-weight: 700 !important;
+    margin-bottom: 5px !important;
+}
+
+.non-border{
+    border: none;
+}
+
+.border-mine{
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn-margin{
+    margin-bottom: 5px;
+}
+
+.margin{
+    margin: 40px 0px 10px 0px !important;
+}
+
+.padding-no-left{
+    padding-left: 0px !important;
+}
+
+.padding-no-right{
+    padding-right: 0px !important;
+}
+
+.textarea-left{
+    text-align: left !important;
+}

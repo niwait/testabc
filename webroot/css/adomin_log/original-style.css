@@ -1,0 +1,494 @@
+@charset "UTF-8";
+button:focus,label:focus {
+  outline: 0 !important;
+  border-color: #ff4e00 !important;
+}
+
+
+/*--------------------
+	BUTTON STYLE
+--------------------*/
+.btn-default,.form-group{
+	font-size: 13px;
+	overflow: hidden;
+}
+.btn-default a{
+	color: black;
+}
+.btn-group .btn:first-child {
+	border-radius: 3px 0 0 3px;
+}
+.btn-group .btn:last-child {
+	border-radius: 0 3px 3px 0;
+}
+
+.dataTables_wrapper > div > .col-sm-12 {
+	width:100%;
+	height: 500px;
+}
+.TableList{
+	overflow-y: scroll;
+}
+
+
+
+/*--------------------
+	/dashboard/
+--------------------*/
+.dashboard-table {
+	max-width: 400px;
+}
+.dashboard-table th,
+.dashboard-table td {
+	width: 50%;
+	text-align: center;
+}
+
+/*--------------------
+	/user/
+	/user/detail/
+	/user/demand/
+--------------------*/
+/*-- .label-form --*/
+.label-form label {
+	margin-right: 20px;
+}
+.label-form .ttl-label {
+	margin-right: 30px;
+}
+.label-form .float-radio {
+	float: left;
+	margin-right: 20px;
+}
+.label-form .float-radio:last-child {
+	margin-right: 0;
+}
+.iradio_minimal-red {
+	margin-right: 5px;
+}
+.point-demand {
+	display: inline-flex;
+}
+
+/*-- .info-list --*/
+.info-list .info-group {
+	width: 100%;
+	overflow: hidden;
+	margin: 10px 0 0;
+}
+.info-list .info-group:last-child {
+	margin-bottom: 10px;
+}
+.info-list .info-group dt {
+	width: 30%;
+	text-align: right;
+	float: left;
+}
+.info-list .info-group dd {
+	width: 70%;
+	float: left;
+}
+.info-list .info-group dd::before {
+	content: '：';
+}
+.info-list .info-group dd .select-group {
+	width: auto;
+}
+.info-list .info-group dd .select-group dd::before {
+	content: none;
+}
+.info-list .info-group dd big {
+	font-size: 120%;
+	margin-right: 2px;
+}
+.info-list .info-group dd small {
+	font-size: 70%;
+}
+.info-list .info-group dd .point-link {
+	font-size: 12px;
+	margin-left: 10px;
+}
+@media (max-width: 768px) {
+	.info-group dt {
+		text-align: left;
+	}
+}
+/*-- .user-state --*/
+.user-state dd {
+	position: relative;
+}
+.user-state dd .withdrawal {
+	width: 52px;
+	height: 100%;
+	text-indent: -9999px;
+	position: absolute;
+	top: 0;
+	left: 124px;
+	z-index: 1;
+}
+@media (min-width: 769px) {
+	.user-state {
+		margin: 0;
+	}
+	.user-state dt {
+		margin-top: 5px;
+	}
+}
+/*-- .TableList --*/
+.TableList {
+	table-layout: fixed;
+	overflow: auto;
+	margin: 5px -15px 0;
+}
+.TableList::-webkit-scrollbar {
+	height: 5px;
+}
+.TableList::-webkit-scrollbar-track {
+	background: #F1F1F1;
+}
+.TableList::-webkit-scrollbar-thumb {
+	background: #BCBCBC;
+}
+.TableList thead,
+.TableList tbody {
+	width: 100%;
+}
+.TableList th,
+.TableList td {
+	text-align: center;
+	vertical-align: middle !important;
+	overflow: hidden;
+	white-space: normal; 
+	word-break: break-all;
+}
+.TableList .cell-box p,
+.TableList .cell-box a,
+.TableList .cell-box li {
+	margin: 0;
+}
+.TableList .btn {
+	font-size: 14px;
+	border: 1px solid #d2d6de;
+	border-radius: 3px;
+	padding: 6px 12px;
+	height: 34px;
+	background: #fff;
+}
+.TableList .select-group {
+	margin-bottom: 0;
+}
+.TableList .select-group .btn-default.active,
+.TableList .select-group .btn-default:active {
+	background: #e6e6e6;
+}
+.TableList .select-group .btn-group {
+	
+}
+.TableList .form-group {
+	margin-bottom: 0;
+}
+.TableList .form-group select {
+	width: 90px;
+}
+
+.box-body .dataTables_wrapper {
+	overflow: hidden;
+}
+.box-body .dataTables_wrapper .row:nth-child(2) {
+	width: 100%;
+	margin: 0 auto;
+	overflow-x: auto;
+}
+
+/*-- .userTableList --*/
+.userTableList {
+	width: 100%;
+	min-width: 1100px;
+}
+.userTableList .date {
+	width: 110px;
+}
+.userTableList .movie,
+.userTableList .point {
+	width: 110px;
+}
+.userTableList .edit {
+	width: 90px;
+}
+.userTableList .state {
+	width: 60px;
+}
+.userTableList .name,
+.userTableList .nickname,
+.userTableList .mail {
+	width: 20%;
+}
+
+/*-- .movieTableList --*/
+.movieTableList .stop {
+	color: #ccc;
+}
+.movieTableList {
+	width: 100%;
+	min-width: 900px;
+}
+.movieTableList .date,
+.movieTableList .delete {
+	width: 110px;
+}
+.movieTableList .original,
+.movieTableList .digest,
+.movieTableList .support,
+.movieTableList .vote,
+.movieTableList .nice,
+.movieTableList .favorite,
+.movieTableList .state {
+	width: 100px;
+}
+.movieTableList .delete {
+	width: 90px;
+}
+/*-- .demandTableList --*/
+.demandTableList {
+	width: 100%;
+	min-width: 900px;
+}
+.demandTableList .demand {
+	color: #f00;
+}
+.demandTableList .cancel {
+	color: #ccc;
+}
+.demandTableList .date,
+.demandTableList .point,
+.demandTableList .paying {
+	width: 110px;
+}
+.demandTableList .point {
+	width: 100px;
+}
+.demandTableList .status,
+.demandTableList .delete,
+.demandTableList .reload {
+	width: 90px;
+}
+.demandTableList .change {
+	width: 112px;
+}
+.demandTableList .purchaser {
+	width: 30%;
+}
+
+/*--------------------
+	/information/
+--------------------*/
+/*-- .datepicker-box --*/
+.datepicker-box {
+	overflow: hidden;
+	margin: 10px 0 0;
+}
+.datepicker-box .date-label {
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+.datepicker-box .calendar-group,
+.datepicker-box .calendar-group .input-group,
+.datepicker-box .calendar-group p {
+	float: left;
+}
+.datepicker-box .calendar-group {
+	margin-bottom: 10px;
+}
+.datepicker-box .calendar-group .input-group {
+	width: 180px;
+}
+.datepicker-box .calendar-group p {
+	margin: 10px;
+}
+.datepicker-box .btn-wrap {
+	float: right;
+	margin-bottom: 10px;
+}
+.datepicker-box .btn-wrap .btn-default {
+	font-size: 14px;
+}
+@media (max-width: 768px) {
+	.datepicker-box .date-label {
+		width: 100%;
+		margin: 0 0 10px;
+	}
+	.datepicker-box .calendar-group .input-group {
+		width:45%;
+		margin: 0;
+	}
+	.datepicker-box .calendar-group p {
+		width: 10%;
+		text-align: center;
+		margin: 10px 0 0;
+	}
+}
+/*-- .infoTableList --*/
+.infoTableList {
+	width: 100%;
+	min-width: 1400px;
+}
+.infoTableList .date,
+.infoTableList .start,
+.infoTableList .last {
+	width: 90px;
+}
+.infoTableList .user {
+	width: 10%;
+}
+.infoTableList .title {
+	width: 150px !important;
+}
+.infoTableList .contents {
+	width: 400px !important;
+}
+.infoTableList .state {
+	width: 128px;
+}
+.infoTableList .edit {
+	width: 90px;
+}
+
+/*--------------------
+	/information/new/
+--------------------*/
+/*-- .input-information --*/
+.input-information {
+	overflow: hidden;
+}
+.input-information .date-and-time {
+	overflow: hidden;
+}
+.input-information .date-and-time .date-box {
+	width: 63%;
+	float: left;
+}
+.input-information .date-and-time .time-box {
+	width: 35%;
+	line-height: 1;
+	float: right;
+}
+.input-information .date-and-time .time-box .time-select {
+	width: 45%;
+	float: left;
+}
+.input-information .date-and-time .time-box p {
+	width: 10%;
+	text-align: center;
+	float: left;
+	margin-top: 10px;
+}
+.information-state {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.information-state dt {
+	width: 5em;
+	float: left;
+}
+/*-- .btn-list --*/
+.btn-list {
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+}
+.btn-list li {
+	float: right;
+	margin-left: 10px;
+	list-style: none;
+}
+.btn-list li a {
+	font-size: 14px;
+}
+
+
+/*--------------------
+	/board/
+--------------------*/
+/*-- .boardTableList --*/
+.boardTableList {
+	width: 100%;
+	min-width: 1500px;
+}
+.boardTableList .date,
+.boardTableList .state {
+	width: 90px;
+}
+.boardTableList .name,
+.boardTableList .nickname,
+.boardTableList .mail {
+	width: 10%;
+}
+.boardTableList .category {
+	width: 150px;
+}
+.boardTableList .contents {
+	width: 25%;
+}
+.boardTableList .openclose {
+	width: 140px;
+}
+
+/*--------------------
+	/board/message/
+--------------------*/
+/*-- .messageTableList --*/
+.messageTableList {
+	width: 100%;
+	min-width: 800px;
+}
+.messageTableList .date {
+	width: 100px;
+}
+.messageTableList .contents {
+	width: 700px;
+}
+.messageTableList .cell-box .message-head {
+	width: 100%;
+	overflow: hidden;
+}
+.messageTableList .cell-box .message-head h5 {
+	width: 540px;
+	font-weight: 700;
+	text-align: left;
+	float: left;
+}
+.messageTableList .cell-box .message-head .select-group {
+	float: right;
+	margin-bottom: 10px;
+}
+.messageTableList .cell-box .text-box p {
+	text-align: left;
+}
+
+/*--------------------
+	/notification/
+--------------------*/
+/*-- .noticeTableList --*/
+.noticeTableList {
+	width: 100%;
+	min-width: 1200px;
+}
+.noticeTableList .date {
+	width: 100px;
+}
+.noticeTableList .name,
+.noticeTableList .nickname,
+.noticeTableList .mail {
+	width: 20%;
+}
+.noticeTableList .state {
+	width: 128px;
+}
+.noticeTableList .contents {
+	width: 40%;
+}
+.noticeTableList .delete {
+	width: 90px;
+}
+
+
