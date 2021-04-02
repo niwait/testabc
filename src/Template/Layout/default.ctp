@@ -107,7 +107,7 @@
                     <li>
                         <p><a href="<?php echo $this->Url->build(['controller'=>'Home', 'action'=>'terms']); ?>">利用規約</a></p>
                         <p><a href="<?php echo $this->Url->build(['controller'=>'Home', 'action'=>'privacy']); ?>">プライバシーポリシー</a></p>
-                        <p><a href="">ガイドライン</a></p>
+                        <p><a href="<?php echo $this->Url->build(['controller'=>'Home', 'action'=>'terms']); ?>">ガイドライン</a></p>
                         <p><a href="<?php echo $this->Url->build(['controller'=>'Home', 'action'=>'inquiry']); ?>">お問い合わせ</a></p>
                     </li>
                 </ul>
