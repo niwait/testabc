@@ -100,8 +100,13 @@
                     </li>
                     <li> 
                         <p><a href="<?php echo $this->Url->build(['controller'=>'Home', 'action'=>'terms']); ?>">freedaとは</a></p>
+<<<<<<< HEAD
                         <p><a href="<?php echo $this->Url->build(['controller'=>'Home', 'action'=>'terms']); ?>">freedaの使い方</a></p>
                         <p><a href="<?php echo $this->Url->build(['controller'=>'Home', 'action'=>'questions']); ?>">よくある質問</a></p>
+=======
+                        <p><a>freedaの使い方</a></p>
+                        <p><a href="<?php echo $this->Url->build(['controller'=>'Home', 'action'=>'questions']); ?>">質問2222222</a></p>
+>>>>>>> develop_kurokawa
                         <p><a href="<?php echo $this->Url->build(['controller'=>'Home', 'action'=>'terms']); ?>">掲載希望の企業様へ</a></p>
                     </li>
                     <li>
