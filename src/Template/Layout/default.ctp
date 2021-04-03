@@ -101,7 +101,7 @@
                     <li> 
                         <p><a href="<?php echo $this->Url->build(['controller'=>'Home', 'action'=>'terms']); ?>">freedaとは</a></p>
                         <p><a href="<?php echo $this->Url->build(['controller'=>'Home', 'action'=>'terms']); ?>">freedaの使い方</a></p>
-                        <p><a href="<?php echo $this->Url->build(['controller'=>'Home', 'action'=>'questions']); ?>">よくある質問</a></p>
+                        <p><a href="<?php echo $this->Url->build(['controller'=>'Home', 'action'=>'questions']); ?>">質問11111</a></p>
                         <p><a>掲載希望の企業様へ</a></p>
                     </li>
                     <li>
