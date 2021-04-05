@@ -1,7 +1,7 @@
 <html lang="ja">
 <head>
     <meta charset="utf-8">
-    <title>フリーランス支援サイト</title>
+    <title>フリーランス支援</title>
     <meta name="description" content="フリーランスを楽しもう【BIRTH】">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
