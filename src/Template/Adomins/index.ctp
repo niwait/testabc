@@ -225,7 +225,7 @@
                             'confirm'=>__("本当に削除しますか？？"),
                             'data'=> ["user.id"=>$rowData["id"],
                             "user.action"=>"delete"])
-                            //削除
+                            //削除あああ
                             )?>
                           </td>
                         </tr>
