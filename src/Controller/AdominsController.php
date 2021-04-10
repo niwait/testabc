@@ -108,7 +108,7 @@ class AdominsController extends AppController
 public function dw(){
 
 
-  header('Content-Type: text/csv');
+header('Content-Type: text/csv');
 header("Content-Disposition: attachment; filename=hoge.csv");
 //ビューを使わない
 $this->autoRender = false;
